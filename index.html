@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Real Estate Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script charset="utf-8" src="main.js"></script>
+    <script charset="utf-8" src="app.js"></script>
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -28,6 +28,7 @@
   </head>
 
   <body>
+    <!--Navigation Bar-->
     <div id="header-hero-container">
       <header>
         <div class="flex container">
@@ -50,6 +51,71 @@
           </nav>
         </div>
       </header>
+
+      <!--Hero Section-->
+      <section id="hero">
+        <div class="fade"></div>
+        <div class="hero-text">
+          <h1>Buy and Sell Real Estate Properties</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </section>
     </div>
+
+    <!--How It Works Section-->
+    <section id="how-it-works">
+      <div class="container">
+        <h2>How it Works</h2>
+        <div class="flex">
+          <div>
+            <span class="fas fa-home"></span>
+            <h4>Find A Property</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div>
+            <span class="fas fa-dollar-sign"></span>
+            <h4>Buy A Property</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div>
+            <span class="fas fa-chart-line"></span>
+            <h4>Investing</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Properties Section-->
+    <section id="properties">
+      <div class="container">
+        <h2>Properties</h2>
+        <div id="properties-slider" class="slick">
+          <div>
+            <img src="" alt="Property 1" />
+            <div class="property-details">
+              <p class="price">$3,400,000</p>
+              <span class="beds">6 Beds</span>
+              <span class="baths">4 Baths</span>
+              <span class="sqft">4,250 sqft</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
